@@ -320,4 +320,5 @@ header {
   background: none; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  margin-top: -200px;}
