@@ -265,19 +265,14 @@ a {
 
   
 #particles-js {
-  background: $main;
-  display: flex;
-  vertical-align: bottom;
+  position: fixed;
   width: 100%;
-  min-height: 100vh;
-  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("");
   background-size: cover;
-  background-attachment: fixed;
-  .particles-js-canvas-el {
-    width:100% !important;
-    height:100vh !important;
-  }
-}
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+
 
 /* about.html */
 #left {
