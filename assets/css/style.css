@@ -320,10 +320,7 @@ header {
   background: none; }
 
 #footer {
-  position: relative;
-  margin-top: -180px;
+  margin-top: 180px;
   /* negative value of footer height */
-  height: 180px;
-  clear: both;
   text-align: center;
 }
