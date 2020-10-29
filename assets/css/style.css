@@ -114,8 +114,6 @@ header h2 {
 */
 #main_content {
   width: 100%;
-  overflow: auto;
-  padding-bottom: 180px;
   -webkit-font-smoothing: antialiased; }
 
 section img {
@@ -321,11 +319,6 @@ header {
   border: none;
   background: none; }
 
-#footer {
+footer {
   text-align: center;
-  position: relative;
-  margin-top: -180px;
-  /* negative value of footer height */
-  height: 180px;
-  clear: both;
-}
+  margin-top: 200px;}
