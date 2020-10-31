@@ -35,8 +35,8 @@
             var arxiv_authorid = "piras_d_1";
             var arxiv_format = "arxiv";
             var arxiv_max_entries = 0;
-            var arxiv_includeTitle = 0;
-            var arxiv_includeSummary = 1;
+            var arxiv_includeTitle = 1;
+            var arxiv_includeSummary = 0;
         </script>
         <script
             type="text/javascript"
@@ -88,18 +88,15 @@
 
 <main aria-label="Content">
     <div>
-        <header class="Publications-header">
+        <header 
+		class="Publications-header">
+	</header>
             <h1 class="Publications-title">
                 List of publications.
             </h1>
-	            <table>
-    <tbody>
-        <tr>
-            <td width="50%" id="left">
-<p>
+		<p>
 		    Contact me if you want to know more about any of these.
-</p> </td> </tr> </tbody> </table>
-        </header>
+		</p> 
         <article class="publications">
     <div id="arxivfeed"></div>
 </article>
