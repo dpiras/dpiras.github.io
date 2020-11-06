@@ -1,3 +1,3 @@
 # Davide Piras
 
-Work in progress
+Personal website accessible at [dpiras.github.io](https://dpiras.github.io "Davide's Website").
