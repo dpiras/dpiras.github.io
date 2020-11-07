@@ -282,9 +282,6 @@ a {
 #right {
   text-align: left; }
 
-.profile-pic {
-  border-radius: 50%; }
-
 /* code.html */
 .code h4 {
   color: white; }
@@ -297,12 +294,6 @@ a {
 .four-zero-four h1 {
   font-size: 4em; }
 
-@media only screen and (max-width: 40em) {
-  tr {
-    text-align: center; }
-
-  td {
-    display: inline-block; } }
 /* General */
 a,
 a:visited {
