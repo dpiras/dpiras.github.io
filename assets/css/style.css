@@ -458,7 +458,7 @@ div.profile-pic img {
     margin: 10px;
     z-index: 1000;
     position: relative;
-    top: -30px;
-    left: -50px;
+    top: -50px;
+    left: -0px;
   }
 }
