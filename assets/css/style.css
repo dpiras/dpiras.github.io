@@ -387,7 +387,7 @@ a {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  z-index: 10;
+  z-index: 1;
 }
 
 /* about.html */
@@ -459,5 +459,6 @@ div.profile-pic img {
     z-index: 1000;
     position: relative;
     top: 0px;
+    left: -200px;
   }
 }
