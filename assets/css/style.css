@@ -452,13 +452,13 @@ div.profile-pic img {
 }
 @media screen and (max-width: 600px) {
   div.profile-pic img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
     margin: 10px;
     z-index: 1000;
     position: relative;
-    top: 0px;
-    left: -100px;
+    top: -30px;
+    left: -500px;
   }
 }
