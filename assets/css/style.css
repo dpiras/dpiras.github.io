@@ -448,7 +448,9 @@ div.profile-pic img {
   border-radius: 1000px;
   margin: 10px;
   z-index: 1000;
+  position: relative;
 }
+
 @media screen and (max-width: 600px) {
   div.profile-pic img {
     width: 150px;
