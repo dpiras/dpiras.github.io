@@ -432,7 +432,7 @@ header {
   background: none;
 }
 
-footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -442,7 +442,7 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
-  footer { text-align: center; }  
+  .footer { text-align: center; }  
 }
 
 div.profile-pic img {
