@@ -449,6 +449,14 @@ div.footer {
   text-align: center; }
 }
 
+@media screen and (max-height: 400px) {
+  div.footer { position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center; }
+}
+
 
 div.profile-pic img {
   width: 250px;
@@ -471,3 +479,17 @@ div.profile-pic img {
     left: -0px;
   }
 }
+
+@media screen and (max-height: 400px) {
+  div.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin: 10px;
+    z-index: 1000;
+    position: relative;
+    top: -50px;
+    left: -0px;
+  }
+}
+
