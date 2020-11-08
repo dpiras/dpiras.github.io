@@ -441,6 +441,9 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+  footer { text-align: center; }  
+}
 
 div.profile-pic img {
   width: 250px;
