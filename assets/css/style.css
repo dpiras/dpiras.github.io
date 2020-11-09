@@ -160,6 +160,21 @@ div.h1 {
   -webkit-font-smoothing: antialiased;
 }
 
+@media screen and (max-width: 600px) {
+  div.h1 {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0 0 0 0;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1),
+    0 0 10px rgba(181, 232, 83, 0.1);
+  letter-spacing: -1px;
+  -webkit-font-smoothing: antialiased;
+}
+}
+
 @media screen and (max-height: 400px) {
   div.h1 {
   font-size: 30px;
@@ -450,7 +465,7 @@ header {
 div.footer {
   position: relative;
   left: 0;
-  bottom: -150px;
+  bottom: -100px;
   width: 100%;
   color: white;
   text-align: center;
