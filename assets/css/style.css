@@ -480,6 +480,14 @@ div.footer-about {
   text-align: center;
   }
 
+div.footer-404 {
+  position: relative;
+  left: 0;
+  bottom: -80px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  }
 
 @media screen and (max-width: 600px) {
   div.footer { position: relative;
