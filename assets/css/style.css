@@ -474,7 +474,7 @@ div.footer {
 div.footer-about {
   position: relative;
   left: 0;
-  bottom: -70px;
+  bottom: -85px;
   width: 100%;
   color: white;
   text-align: center;
@@ -483,7 +483,7 @@ div.footer-about {
 div.footer-404 {
   position: relative;
   left: 0;
-  bottom: -100px;
+  bottom: -120px;
   width: 100%;
   color: white;
   text-align: center;
@@ -491,8 +491,7 @@ div.footer-404 {
 
 @media screen and (max-width: 600px) {
   div.footer { position: relative;
-  top: -100px;
-  bottom: 0;
+  bottom: -50px;
   width: 100%;
   color: white;
   text-align: center; }
@@ -500,7 +499,8 @@ div.footer-404 {
 
 @media screen and (max-height: 400px) {
   div.footer { position: relative;
-  bottom: 100px;
+  bottom: 0px;
+  top: -100px;  
   width: 100%;
   color: white;
   text-align: center; }
