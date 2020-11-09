@@ -164,7 +164,7 @@ div.h1 {
   div.h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: -50px 0 0 0;
+  margin: -100px 0 0 0;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   color: #ffffff;
@@ -176,7 +176,7 @@ div.h1 {
 }
 
 header h1:before {
-  content: "./ ";
+  content: " ";
   font-size: 24px;
 }
 
@@ -448,9 +448,9 @@ header {
 }
 
 div.footer {
-  position: fixed;
+  position: relative;
   left: 0;
-  bottom: 0;
+  bottom: -100px;
   width: 100%;
   color: white;
   text-align: center;
