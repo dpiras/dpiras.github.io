@@ -465,7 +465,7 @@ header {
 div.footer {
   position: relative;
   left: 0;
-  bottom: -180px;
+  bottom: -175px;
   width: 100%;
   color: white;
   text-align: center;
@@ -491,15 +491,48 @@ div.footer-404 {
 
 @media screen and (max-width: 600px) {
   div.footer { position: relative;
-  bottom: 50px;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center; }
+}
+
+@media screen and (max-width: 600px) {
+  div.footer-about { position: relative;
+  bottom: 20px;
+  width: 100%;
+  color: white;
+  text-align: center; }
+}
+
+@media screen and (max-width: 600px) {
+  div.footer-404 { position: relative;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center; }
+}
+
+
+@media screen and (max-height: 400px) {
+  div.footer { position: relative;
+  bottom: 0px;
   width: 100%;
   color: white;
   text-align: center; }
 }
 
 @media screen and (max-height: 400px) {
-  div.footer { position: relative;
-  bottom: 0px;
+  div.footer-about { position: relative;
+  bottom: 20px;
+  width: 100%;
+  color: white;
+  text-align: center; }
+}
+
+@media screen and (max-height: 400px) {
+  div.footer-404 { position: relative;
+  bottom: 20px;
   width: 100%;
   color: white;
   text-align: center; }
