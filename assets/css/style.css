@@ -162,7 +162,7 @@ div.h1 {
 
 @media screen and (max-width: 600px) {
   div.h1 {
-  font-size: 30px;
+  font-size: 27px;
   line-height: 1.5;
   margin: 0 0 0 0;
   font-weight: bold;
@@ -465,7 +465,7 @@ header {
 div.footer {
   position: relative;
   left: 0;
-  bottom: -100px;
+  bottom: -170px;
   width: 100%;
   color: white;
   text-align: center;
@@ -474,7 +474,7 @@ div.footer {
 div.footer-about {
   position: relative;
   left: 0;
-  bottom: 0;
+  bottom: -50px;
   width: 100%;
   color: white;
   text-align: center;
