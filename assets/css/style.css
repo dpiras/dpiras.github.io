@@ -465,7 +465,7 @@ header {
 div.footer {
   position: relative;
   left: 0;
-  bottom: -170px;
+  bottom: -180px;
   width: 100%;
   color: white;
   text-align: center;
@@ -491,7 +491,7 @@ div.footer-404 {
 
 @media screen and (max-width: 600px) {
   div.footer { position: relative;
-  bottom: -50px;
+  bottom: 50px;
   width: 100%;
   color: white;
   text-align: center; }
@@ -500,7 +500,6 @@ div.footer-404 {
 @media screen and (max-height: 400px) {
   div.footer { position: relative;
   bottom: 0px;
-  top: -100px;  
   width: 100%;
   color: white;
   text-align: center; }
