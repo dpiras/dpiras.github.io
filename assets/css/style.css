@@ -543,7 +543,7 @@ div.profile-pic img {
   width: 250px;
   height: 250px;
   border-radius: 1000px;
-  margin: 2% 0 0 0;
+  margin: -5% 0 0 0;
   z-index: 1000;
   position: relative;
 }
