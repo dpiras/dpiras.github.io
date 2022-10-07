@@ -422,6 +422,7 @@ a {
 /* about.html */
 #left {
   text-align: center;
+  margin: 0 0 -50% 0;
 }
 
 #right {
