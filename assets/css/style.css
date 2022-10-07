@@ -422,7 +422,6 @@ a {
 /* about.html */
 #left {
   text-align: center;
-  margin: 0 0 -50% 0;
 }
 
 #right {
@@ -475,7 +474,7 @@ div.footer {
 div.footer-about {
   position: relative;
   left: 0;
-  bottom: -85px;
+  bottom: -200px;
   width: 100%;
   color: white;
   text-align: center;
